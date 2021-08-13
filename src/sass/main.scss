@@ -7,14 +7,16 @@
 @import './example';
 
 @import './base';
+@import './variables';
+
+@import './header';
 @import './hero';
 @import './3d-modeling';
 @import './3d-printing';
 @import './3d-scanning';
 @import './contacts-section';
-@import './footer';
 @import './gallery';
-@import './header';
 @import './more-photo';
 @import './order-form-contacts';
 @import './take-order';
+@import './footer';
