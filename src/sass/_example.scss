@@ -9,7 +9,7 @@
 }
 
 .example code {
-  font-family: monospace;
+  font-family: 'Caviar Dreams';
   font-size: 16px;
   font-weight: 700;
   background-color: #009688;
@@ -24,4 +24,10 @@
   background-image: url('../images/demo.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.text {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 20px;
 }
