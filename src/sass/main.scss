@@ -3,6 +3,26 @@
  * Все паршалы подключаются сюда.
  */
 
+/*Подключение СТИЛЕЙ ШРИФТА*/
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url('../fonts/CaviarDreams.eot');
+  src: local('☺'), url('../fonts/CaviarDreams.woff') format('woff'),
+    url('../fonts/CaviarDreams.ttf') format('truetype'),
+    url('../fonts/CaviarDreams.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-Regular.eot');
+  src: local('☺'), url('../fonts/CeraPro-Regular.woff') format('woff'),
+    url('../fonts/CeraPro-Regular.ttf') format('truetype'),
+    url('../fonts/CeraPro-Regular.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+/*Подключение СТИЛЕЙ ШРИФТА*/
 // Стили для файла с примером HTML-фрагмента
 @import './example';
 
