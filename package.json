@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://Juliademb.github.io/group13",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "dev": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /group13/"
   },
   "repository": {
