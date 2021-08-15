@@ -61,11 +61,20 @@ footer {
   display: block;
   margin-top: 5px;
 }
- 
-@media screen and (max-width: 320px)  {
-    footer {
-        width: 320px;
-        display: block;
-        text-align: center;
-    }
-}
+
+// @media screen and (max-width: 320px) {
+//   footer {
+//     flex-direction: column;
+//     // justify-content: center;
+//     width: 320px;
+//     height: 563;
+//     text-align: center;
+//   }
+//   div {
+//     margin: 0 auto;
+//     // justify-content: center;
+//   }
+//   .phone {
+//     margin-bottom: 30px;
+//   }
+// }
