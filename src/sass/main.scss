@@ -13,6 +13,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Cera Pro';
   src: url('../fonts/CeraPro-Regular.eot');
@@ -23,12 +24,9 @@
   font-style: normal;
 }
 /*Подключение СТИЛЕЙ ШРИФТА*/
-// Стили для файла с примером HTML-фрагмента
-@import './example';
 
 @import './base';
 @import './variables';
-
 @import './header';
 @import './hero';
 @import './3d-modeling';
