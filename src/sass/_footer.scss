@@ -34,7 +34,7 @@ footer {
   justify-content: space-around;
 }
 
-.site__logo {
+.footer__site-logo {
   width: 192px;
   height: 48px;
   margin-top: 30px;
@@ -50,13 +50,13 @@ footer {
   margin-top: 30px;
 }
 
-.connection {
+.footer__connection {
   margin-top: 30px;
 }
-.connection .phone {
+.footer__site-phone {
   margin-top: 16px;
 }
-.connection a {
+.footer__connection a {
   color: #487996;
   display: block;
   margin-top: 5px;
