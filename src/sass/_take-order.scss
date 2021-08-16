@@ -1,0 +1,142 @@
+.order-hero__title {
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.26;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 16px;
+
+  color: var(--blue-accent-color);
+  font-family: 'Cera Pro';
+
+  @media screen and(min-width: 768px) {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  @media screen and(min-width: 1444px) {
+    font-size: 48px;
+  }
+}
+
+.order-hero__container {
+  padding-right: 20px;
+  padding-left: 20px;
+
+  @media screen and(min-width: 768px) {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  @media screen and(min-width: 1444px) {
+    padding-right: 189px;
+    padding-left: 189px;
+  }
+}
+.order-hero__tablet {
+  @media screen and(min-width: 768px) {
+    display: flex;
+  }
+}
+
+.order-hero__bg-image {
+  width: 280px;
+  height: 171px;
+  background-image: url(../images/take-order/mobile/take-order1.jpg);
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 16px;
+
+  @media screen and(min-width: 768px) {
+    background-image: url(../images/take-order/tablet/take-order1.jpg);
+    border-radius: 15px;
+    width: 247px;
+    height: 116px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  @media screen and(min-width: 1444px) {
+    background-image: url(../images/take-order/desktop/take-order1.jpg);
+    width: 515px;
+    height: 315px;
+    margin-right: 32px;
+  }
+}
+
+.order-hero__text {
+  color: var(--black-text-color);
+  font-family: 'Cera Pro';
+  font-size: 16px;
+  line-height: 1.26;
+  width: 100%;
+  font-weight: 300;
+
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+  }
+}
+
+.order-hero__description {
+  margin-bottom: -16px;
+
+  @media screen and (min-width: 768px) {
+    width: 381px;
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1444px) {
+    width: 515px;
+    margin-top: -24px;
+    margin-bottom: 55px;
+  }
+}
+.order-hero__item {
+  margin-bottom: 16px;
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1444px) {
+    margin-top: 24px;
+  }
+}
+
+.order-hero__decor {
+  @media screen and (max-width: 1443px) {
+    display: none;
+  }
+
+  display: flex;
+  width: 515px;
+}
+
+.order-hero__decor-item1 {
+  background-image: url(../images/take-order/desktop/take-order2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 144px;
+  height: 144px;
+  margin-right: 42px;
+  border-top-right-radius: 72px;
+  border-bottom-right-radius: 72px;
+}
+.order-hero__decor-item2 {
+  background-image: url(../images/take-order/desktop/take-order3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 144px;
+  height: 144px;
+  margin-right: 41px;
+  border-top-left-radius: 72px;
+  border-bottom-right-radius: 72px;
+}
+.order-hero__decor-item3 {
+  background-image: url(../images/take-order/desktop/take-order4.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 144px;
+  height: 144px;
+  border-bottom-right-radius: 72px;
+}
