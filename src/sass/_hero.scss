@@ -60,7 +60,7 @@
         padding-left: 194px;
         padding-right: 194px;
     }
-    .hero__container {
+    .hero__list-container {
         position: relative;
     }
     .hero__title {
@@ -79,8 +79,8 @@
     }
     .hero__link--tabl {
         position: absolute;
-        top: 195px;
-        left: 106px;
+        top: 198px;
+        left: -75px;
 
         max-width: 74px;
         display: block;
@@ -94,11 +94,13 @@
         padding-left: 376px;
         padding-right: 376px;
         padding-bottom: 100px;
+
+        background-image: url(./images/hero-top-left-back.jpg);
     }
     
     .hero__title {
         margin-bottom: 69px;
-        min-width: 624px;
+        max-width: 624px;
         font-size: 48px;
     }
     .hero__image-list {
@@ -119,12 +121,13 @@
     }
     .hero__link--desk {    
         position: absolute;
-        top: 415px;
-        left: 120px;
+        top: 420px;
+        left: -195px;
 
         max-width: 144px;
         display: block;
         padding: 58px 63px;
     
     }
+    
 }
