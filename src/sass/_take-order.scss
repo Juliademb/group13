@@ -23,6 +23,7 @@
 .order-hero__container {
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 52px;
 
   @media screen and(min-width: 768px) {
     padding-right: 60px;
@@ -31,6 +32,7 @@
   @media screen and(min-width: 1444px) {
     padding-right: 189px;
     padding-left: 189px;
+    padding-bottom: 100px;
   }
 }
 .order-hero__tablet {
@@ -83,7 +85,6 @@
 
   @media screen and (min-width: 768px) {
     width: 381px;
-    margin-bottom: 0;
   }
   @media screen and (min-width: 1444px) {
     width: 515px;
@@ -95,7 +96,6 @@
   margin-bottom: 16px;
 
   @media screen and(min-width: 768px) {
-    margin-bottom: 0;
   }
 
   @media screen and (min-width: 1444px) {
