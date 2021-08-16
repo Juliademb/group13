@@ -1,6 +1,7 @@
-.hero__container {
+.hero {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 52px;
 }
 .hero__title {
     margin-bottom: 32px;
@@ -46,18 +47,21 @@
 
     color: var(--black-text-color);
 }
-.hero__link {
+.hero__link--tabl {
+    display: none;
+}
+.hero__link--desk {
     display: none;
 }
 
 
 @media screen and (min-width: 768px) {
-    .hero__container {
-        position: relative;
+    .hero {
         padding-left: 194px;
         padding-right: 194px;
-
-        padding-bottom: 52px;
+    }
+    .hero__container {
+        position: relative;
     }
     .hero__title {
         margin-bottom: 64px;
@@ -73,7 +77,7 @@
         font-size: 18px;
         line-height: 1.17;
     }
-    .hero__link {
+    .hero__link--tabl {
         position: absolute;
         top: 195px;
         left: 106px;
@@ -82,9 +86,45 @@
         display: block;
         padding: 30px 32px;
     }
-    .hero__icon {
-        width: 16.37px;
-        height: 16.37px;
+   
+}
+
+@media screen and (min-width: 1444px) {
+    .hero {
+        padding-left: 376px;
+        padding-right: 376px;
+        padding-bottom: 100px;
+    }
+    
+    .hero__title {
+        margin-bottom: 69px;
+        min-width: 624px;
+        font-size: 48px;
+    }
+    .hero__image-list {
+        margin-bottom: 100px;
+    }
+    .hero__item {
+        margin-right: 35px;
+    }
+    .hero__text {
+        font-size: 36px;
+        line-height: 1.166;
     }
 
+
+
+    .hero__link--tabl {
+        display: none;
+    }
+    .hero__link--desk {    
+        position: absolute;
+        top: 415px;
+        left: 120px;
+
+        max-width: 144px;
+        display: block;
+        padding: 58px 63px;
+    
+    }
 }
