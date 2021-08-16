@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../fonts/CaviarDreams.eot":[["CaviarDreams.b2d45b7e.eot","pPEv"],"pPEv"],"./../fonts/CaviarDreams.woff":[["CaviarDreams.f99e0927.woff","lSNS"],"lSNS"],"./../fonts/CaviarDreams.ttf":[["CaviarDreams.b041f621.ttf","XhlN"],"XhlN"],"./../fonts/CaviarDreams.svg":[["CaviarDreams.f788887c.svg","cPZr"],"cPZr"],"./../fonts/CeraPro-Regular.eot":[["CeraPro-Regular.39859a65.eot","IQYD"],"IQYD"],"./../fonts/CeraPro-Regular.woff":[["CeraPro-Regular.b8fc4b50.woff","s2hl"],"s2hl"],"./../fonts/CeraPro-Regular.ttf":[["CeraPro-Regular.9d5c2ffd.ttf","JbSS"],"JbSS"],"./../fonts/CeraPro-Regular.svg":[["CeraPro-Regular.771b2a5b.svg","h0Re"],"h0Re"],"./../images/demo.jpg":[["demo.090c7c6d.jpg","nKR3"],"nKR3"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/group13/src.908042a9.js.map
+//# sourceMappingURL=/group13/src.d28f184e.js.map
