@@ -1,0 +1,80 @@
+footer * {
+  padding: 0;
+  margin: 0;
+  color: #2b2b2b;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  padding-top: 5px;
+}
+footer li:hover {
+  box-shadow: 3px 3px 3px #00b7ff;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer {
+  min-height: 220px;
+  min-width: 1440px;
+  background-color: #f5f5fa;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__site-logo {
+  width: 192px;
+  height: 48px;
+  margin-top: 30px;
+}
+
+.footer__site-navigation {
+  width: 132px;
+  height: 160px;
+  margin: 30px 0px;
+}
+
+.footer__social-block {
+  margin-top: 30px;
+}
+
+.footer__connection {
+  margin-top: 30px;
+}
+.footer__site-phone {
+  margin-top: 16px;
+}
+.footer__connection a {
+  color: #487996;
+  display: block;
+  margin-top: 5px;
+}
+
+// @media screen and (max-width: 320px) {
+//   footer {
+//     flex-direction: column;
+//     // justify-content: center;
+//     width: 320px;
+//     height: 563;
+//     text-align: center;
+//   }
+//   div {
+//     margin: 0 auto;
+//     // justify-content: center;
+//   }
+//   .phone {
+//     margin-bottom: 30px;
+//   }
+// }
