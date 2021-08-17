@@ -8,7 +8,7 @@ footer * {
 }
 
 footer li {
-  margin-top: 8px;
+  margin-bottom: 8px;
 }
 footer li:hover {
   box-shadow: 3px 3px 3px #00b7ff;
@@ -19,63 +19,65 @@ footer {
   background-color: var(--bg-footer-color);
 }
 
-.footer__site-logo {
-  padding-top: 32px;
-}
-
 .footer__site-email {
   margin: 0px;
 }
 .footer__site-phone {
-  margin: 16px 0px;
+  padding: 16px 0px;
 }
 
 .footer__connection a {
   color: var(--blue-accent-color);
-  margin-top: 5px;
+  margin-top: 5px ;
 }
 
 @media screen and (min-width: 320px) {
   footer {
     text-align: center;
   }
-  footer div {
-    margin-top: 24px;
-  }
   .footer__site-logo {
-    margin-top: 0px;
+    padding-top: 32px;
   }
-  .footer__site-phone {
-    padding-bottom: 32px;
-  }
+footer ul, div {
+  margin-top: 24px;
+}
 }
 
 @media screen and (min-width: 768px) {
-  footer div {
-    display: inline-block;
+  footer ul, div {
+    margin-top: 0px;
   }
-  .footer__site-logo {
-    display: block;
+  .tablet__footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 32px;
   }
   .footer__site-navigation {
     text-align: left;
   }
-  .footer__connection div {
+  .footer__connection {
     text-align: right;
-    display: block;
   }
 }
 
 @media screen and (min-width: 1444px) {
   footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+  }
+  .tablet__footer-wrapper {
+    width: 75%;
+    margin-top: 30px;
+    text-align: left;
   }
   .footer__site-logo {
+    width: 25%;
+    margin-top: 30px;
     padding-top: 0px;
-    margin-top: 32px;
   }
-  .footer__connection div {
+
+  .footer__connection {
     text-align: left;
   }
 }
