@@ -359,7 +359,7 @@ header {
 .pc-header__nav__link--sticky::after {
   content: '';
   width: 10px;
-  height: 3px;
+  height: 4px;
   margin-left: 4px;
   background-image: url(../images/icons/pc-header-down.svg);
   background-size: contain;
@@ -401,7 +401,7 @@ header {
 .sticky__link--close::after {
   content: '';
   width: 10px;
-  height: 3px;
+  height: 4px;
   margin-left: 4px;
   background-image: url(../images/icons/pc-header-up.svg);
   background-size: contain;
