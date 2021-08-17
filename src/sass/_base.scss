@@ -5,6 +5,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  display: block;
+}
+
 
 ul,ol {
   list-style: none;
@@ -28,6 +33,7 @@ a {
     max-width: 768px;
   }
   @media screen and (min-width: 1444px) {
-    max-width: 1440px;
+
+    max-width: 1444px;
   }
 }
