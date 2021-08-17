@@ -10,10 +10,18 @@ a {
   display: block;
 }
 
-ul {
-  list-style: none;
-}
 
+ul,ol {
+  list-style: none;
+  display: block;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+.logo {
+  display: block;
+}
 .container {
   width: 100%;
   margin: 0 auto;
@@ -25,6 +33,7 @@ ul {
     max-width: 768px;
   }
   @media screen and (min-width: 1444px) {
+
     max-width: 1444px;
   }
 }
