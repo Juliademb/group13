@@ -10,7 +10,11 @@ ul {
 .list {
   list-style: none;
 }
-
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
 .container {
   width: 100%;
   margin: 0 auto;

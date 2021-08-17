@@ -2,6 +2,7 @@
   width: 320px;
   margin: 0 auto;
   padding: 0 20px;
+  padding-top: 52px;
 
   &__title {
     margin-bottom: 16.16px;
@@ -31,14 +32,83 @@
     margin-bottom: 24px;
   }
 }
+.gallery-container {
+  position: relative;
+}
+.design-element-1 {
+  position: absolute;
+  width: 73.65px;
+  height: 73.65px;
+  left: -29px;
+  top: 0px;
+  background-color: var(--white-color);
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 35px 0px;
+  z-index: -1;
+}
+
+.design-element-2 {
+  position: absolute;
+  width: 73.65px;
+  height: 73.65px;
+  left: -17px;
+  top: 350.66px;
+  background-color: var(--white-color);
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 25px 0px;
+  z-index: -1;
+}
+.design-element-3 {
+  position: absolute;
+  width: 73.65px;
+  height: 73.65px;
+  right: 0px;
+  bottom: 0px;
+  background-color: var(--white-color);
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 35px 0px;
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+.design-element-4 {
+  position: absolute;
+  width: 73.65px;
+  height: 73.65px;
+  right: 0px;
+  top: 280.74px;
+  background-color: var(--white-color);
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 72px;
+  z-index: -1;
+}
 
 @media screen and (min-width: 768px) {
+  .design-element-1 {
+    left: 32.1px;
+    top: 30px;
+  }
+
+  .design-element-2 {
+    left: 32.1px;
+    top: 215px;
+  }
+  .design-element-3 {
+    right: 32.1px;
+    top: 75.19px;
+  }
+  .design-element-4 {
+    right: 0px;
+    top: 148.74px;
+  }
   .gallery {
     width: 768px;
+    padding: 0 60px;
+    padding-top: 52px;
 
     &__title {
       margin-bottom: 32px;
       font-size: 36px;
+      z-index: 100;
     }
 
     &__list {
@@ -53,17 +123,44 @@
       margin-left: 20px;
       flex-basis: calc((100% - 40px) / 2);
     }
+
     &__list-title {
-      max-width: 315px;
       height: 40px;
       margin-bottom: 12px;
     }
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1444px) {
+  .design-element-1 {
+    width: 144px;
+    height: 144px;
+    left: 32px;
+    top: 0px;
+  }
+
+  .design-element-2 {
+    width: 144px;
+    height: 144px;
+    left: 32.1px;
+    top: 416px;
+  }
+  .design-element-3 {
+    width: 144px;
+    height: 144px;
+    right: 32px;
+    top: 147px;
+  }
+  .design-element-4 {
+    width: 144px;
+    height: 144px;
+    right: -20px;
+    top: 291px;
+  }
+
   .gallery {
-    width: 1200px;
+    width: 1444px;
+    padding: 0 189px;
 
     &__title {
       margin-bottom: 52px;
@@ -82,8 +179,7 @@
       flex-basis: calc((100% - 64px) / 2);
     }
     &__list-title {
-      max-width: 515px;
-      height: 23px;
+      max-width: none;
       margin-bottom: 24px;
     }
   }
