@@ -9,6 +9,8 @@ footer * {
 
 footer li {
   margin-bottom: 8px;
+  transition-duration: 0ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 footer li:hover {
   box-shadow: 3px 3px 3px #00b7ff;
@@ -28,7 +30,7 @@ footer {
 
 .footer__connection a {
   color: var(--blue-accent-color);
-  margin-top: 5px ;
+  margin-top: 5px;
 }
 
 @media screen and (min-width: 320px) {
@@ -38,13 +40,15 @@ footer {
   .footer__site-logo {
     padding-top: 32px;
   }
-footer ul, div {
-  margin-top: 24px;
-}
+  footer ul,
+  footer div {
+    margin-top: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  footer ul, div {
+  footer ul,
+  footer div {
     margin-top: 0px;
   }
   .tablet__footer-wrapper {
