@@ -6,6 +6,9 @@ footer * {
   font-size: 16px;
   line-height: 20px;
 }
+footer span {
+  display: block;
+}
 
 footer li {
   margin-bottom: 8px;
@@ -66,7 +69,7 @@ footer {
 }
 
 @media screen and (min-width: 1444px) {
-  footer {
+  .footer__wrapper {
     display: flex;
     justify-content: center;
   }
