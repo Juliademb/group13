@@ -1,80 +1,81 @@
 footer * {
-  padding: 0;
-  margin: 0;
-  color: #2b2b2b;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li {
+  color: var(--black-text-color);
   font-family: Cera Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 0.01em;
-  padding-top: 5px;
+}
+
+footer li {
+  margin-top: 8px;
 }
 footer li:hover {
   box-shadow: 3px 3px 3px #00b7ff;
 }
 
-footer a {
-  text-decoration: none;
-}
-
 footer {
   min-height: 220px;
-  min-width: 1440px;
-  background-color: #f5f5fa;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
+  background-color: var(--bg-footer-color);
 }
 
 .footer__site-logo {
-  width: 192px;
-  height: 48px;
-  margin-top: 30px;
+  padding-top: 32px;
 }
 
-.footer__site-navigation {
-  width: 132px;
-  height: 160px;
-  margin: 30px 0px;
-}
-
-.footer__social-block {
-  margin-top: 30px;
-}
-
-.footer__connection {
-  margin-top: 30px;
+.footer__site-email {
+  margin: 0px;
 }
 .footer__site-phone {
-  margin-top: 16px;
+  margin: 16px 0px;
 }
+
 .footer__connection a {
-  color: #487996;
-  display: block;
+  color: var(--blue-accent-color);
   margin-top: 5px;
 }
 
-// @media screen and (max-width: 320px) {
-//   footer {
-//     flex-direction: column;
-//     // justify-content: center;
-//     width: 320px;
-//     height: 563;
-//     text-align: center;
-//   }
-//   div {
-//     margin: 0 auto;
-//     // justify-content: center;
-//   }
-//   .phone {
-//     margin-bottom: 30px;
-//   }
-// }
+@media screen and (min-width: 320px) {
+  footer {
+    text-align: center;
+  }
+  footer div {
+    margin-top: 24px;
+  }
+  .footer__site-logo {
+    margin-top: 0px;
+  }
+  .footer__site-phone {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer div {
+    display: inline-block;
+  }
+  .footer__site-logo {
+    display: block;
+  }
+  .footer__site-navigation {
+    text-align: left;
+  }
+  .footer__connection div {
+    text-align: right;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__site-logo {
+    padding-top: 0px;
+    margin-top: 32px;
+  }
+  .footer__connection div {
+    text-align: left;
+  }
+}
