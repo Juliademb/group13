@@ -1,5 +1,6 @@
 h1,
 h2,
+h3,
 p,
 ul {
   margin: 0;
@@ -7,21 +8,13 @@ ul {
 }
 a {
   text-decoration: none;
-  display: block;
 }
 
-
-ul,ol {
+ul,
+ol {
   list-style: none;
-  display: block;
 }
-a {
-  display: inline-block;
-  text-decoration: none;
-}
-.logo {
-  display: block;
-}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -33,15 +26,6 @@ a {
     max-width: 768px;
   }
   @media screen and (min-width: 1444px) {
-
     max-width: 1444px;
   }
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
