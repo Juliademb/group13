@@ -2,7 +2,7 @@
   width: 320px;
   margin: 0 auto;
   padding: 0 20px;
-  padding-top: 52px;
+  padding-bottom: 52px;
 
   &__title {
     margin-bottom: 16.16px;
@@ -26,6 +26,9 @@
 }
 .gallery-image {
   margin-bottom: 8px;
+  width: 100%;
+  display: block;
+  height: auto;
 }
 @media screen and (max-width: 767px) {
   .gallery__list-item:not(:last-child) {
@@ -40,7 +43,7 @@
   width: 73.65px;
   height: 73.65px;
   left: -29px;
-  top: 0px;
+  top: -40px;
   background-color: var(--white-color);
   box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
   border-radius: 0px 0px 35px 0px;
@@ -85,7 +88,7 @@
 @media screen and (min-width: 768px) {
   .design-element-1 {
     left: 32.1px;
-    top: 30px;
+    top: 0px;
   }
 
   .design-element-2 {
@@ -154,7 +157,7 @@
   .design-element-4 {
     width: 144px;
     height: 144px;
-    right: -20px;
+    right: -50px;
     top: 291px;
   }
 
