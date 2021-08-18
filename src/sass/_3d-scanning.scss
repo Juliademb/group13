@@ -1,0 +1,319 @@
+.conteiner {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and(min-width: 768px) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  @media screen and(min-width: 1444px) {
+    padding-left: 189px;
+    padding-right: 189px;
+  }
+}
+
+.hero__scan {
+  display: block;
+  background: url(../images/scanning/hero-scanning-desk.jpg);
+  background-repeat: no-repeat;
+  background-position: 20px 515px;
+  background-size: 280px 199px;
+  padding-bottom: 200px;
+
+  @media screen and (min-width: 768px) {
+    float: left;
+    margin: 0 1em 1em 0;
+    background-position: 520px 100px;
+    background-size: 241px 172px;
+    padding-bottom: 0;
+  }
+  @media screen and (min-width: 1444px) {
+    background-position: 720px 70px;
+    background-size: 515px 368px;
+    padding-bottom: 52px;
+  }
+}
+.text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 300;
+  padding-bottom: 16px;
+  line-height: 1.25px;
+  color: var(--black-text-color);
+}
+
+.scan-text.centr {
+  @media screen and (min-width: 768px) {
+    width: 480px;
+  }
+}
+
+.scan-title {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding-left: 194px;
+    padding-right: 60px;
+  }
+  @media screen and(min-width:1444px) {
+    padding-left: 736px;
+    padding-right: 189px;
+  }
+}
+
+.scan {
+  padding-bottom: 24px;
+}
+.text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25px;
+
+  color: var(--black-text-color);
+
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+    line-height: 1.27;
+  }
+}
+.scan-text {
+  width: 280px;
+  @media screen and (min-width: 768px) {
+    width: 514px;
+  }
+  @media screen and (min-width: 1444px) {
+    width: 515px;
+    padding-bottom: 24px;
+    padding-right: 32px;
+  }
+}
+.scan-text-alein {
+  @media screen and (min-width: 1444px) {
+    display: flex;
+  }
+}
+.scan-text-last {
+  width: 280px;
+  @media screen and (min-width: 768px) {
+    width: 514px;
+  }
+  @media screen and (min-width: 1444px) {
+    display: flex;
+    margin-top: -150px;
+    width: 515px;
+    padding-left: 20px;
+  }
+}
+
+.scan-text:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.hero__scan .title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25px;
+
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
+
+  color: var(--blue-accent-color);
+
+  @media screen and (min-width: 1444px) {
+    font-size: 34px;
+    text-align: left;
+    padding-bottom: 24px;
+  }
+}
+
+.process__scan .title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.27px;
+  text-transform: uppercase;
+  color: var(--blue-accent-color);
+
+  text-align: left;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  margin-top: 200px;
+  margin-bottom: 0;
+
+  @media screen and(min-width:768px) {
+    padding-top: 52px;
+    padding-bottom: 24px;
+    margin-top: 0;
+  }
+  @media screen and(min-width:1444px) {
+    font-size: 36px;
+
+    padding-top: 100px;
+    padding-bottom: 52px;
+    margin-top: 0;
+  }
+}
+.scaninng {
+  margin-left: 20px;
+}
+.process .title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  color: var(--blue-accent-color);
+  padding-top: 18px;
+  right: 20px;
+
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+    line-height: 1.27;
+  }
+}
+
+.scan__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 21px;
+}
+.process__scan {
+  margin-top: -180px;
+  max-width: 320px;
+  margin-bottom: 55px;
+  @media screen and(min-width:768px) {
+    margin-top: 0;
+    max-width: 768px;
+    margin-bottom: 52px;
+  }
+  @media screen and(min-width:1444px) {
+    max-width: 1440px;
+    margin-bottom: 100px;
+  }
+}
+.process {
+  width: 133px;
+  height: 183px;
+  margin-bottom: 15px;
+
+  background: #ffffff;
+  opacity: 0.8;
+  box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #ffffff;
+  border-radius: 50px 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 153px;
+    height: 210px;
+  }
+
+  @media screen and (min-width: 1444px) {
+    width: 250px;
+    height: 298px;
+  }
+}
+.process {
+  flex-basis: calc((100% - 24px) / 2);
+  padding-left: 21px;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 48px) / 4);
+  }
+
+  @media screen and (min-width: 1444px) {
+    padding-top: 44px;
+    text-align: center;
+  }
+}
+.img-scanning {
+  width: 94px;
+  height: 82px;
+  padding-top: 14px;
+
+  @media screen and (min-width: 768px) {
+    width: 108px;
+    height: 95px;
+  }
+
+  @media screen and (min-width: 1444px) {
+    width: 177px;
+    height: 154px;
+  }
+}
+.process__card {
+  display: block;
+
+  text-align: center;
+  padding-right: 50px;
+  margin-top: -200px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 1444px) {
+    justify-content: center;
+  }
+}
+
+.hero__img-scanning {
+  width: 280px;
+  height: 199px;
+
+  @media screen and (min-width: 768px) {
+    position: fixed;
+    right: 8px;
+    top: 140px;
+    width: 241px;
+    height: 172px;
+  }
+
+  @media screen and (min-width: 1444px) {
+    width: 515px;
+    height: 368px;
+  }
+}
+
+.button-scan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 56px;
+  margin-bottom: 76px;
+
+  background: var(--bg-footer-color);
+  border-radius: 30.5px;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1),
+    5px 5px 10px rgba (72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+
+  @media screen and(min-width: 768px) {
+    width: 277px;
+  }
+
+  @media screen and(min-width: 1444px) {
+    margin-bottom: 100px;
+  }
+}
+.text-button {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-style: 16px;
+  line-height: 1.5;
+  text-align: center;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 32px;
+  color: var(--blue-accent-color);
+}

@@ -1,9 +1,13 @@
 h1,
 h2,
+h3,
 p,
 ul {
   margin: 0;
   padding: 0;
+}
+a {
+  text-decoration: none;
 }
 
 img {
@@ -12,7 +16,8 @@ img {
   height: auto;
 }
 
-.list {
+ul,
+ol {
   list-style: none;
 }
 

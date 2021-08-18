@@ -1,0 +1,90 @@
+footer * {
+  color: var(--black-text-color);
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+footer span {
+  display: block;
+}
+
+footer li {
+  margin-bottom: 8px;
+  transition-duration: 0ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+footer li:hover {
+  box-shadow: 3px 3px 3px #00b7ff;
+}
+
+footer {
+  min-height: 220px;
+  background-color: var(--bg-footer-color);
+}
+
+.footer__site-email {
+  margin: 0px;
+}
+.footer__site-phone {
+  padding: 16px 0px;
+}
+
+.footer__connection a {
+  color: var(--blue-accent-color);
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 320px) {
+  footer {
+    text-align: center;
+  }
+  .footer__site-logo {
+    padding-top: 32px;
+  }
+  footer ul,
+  footer div {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer ul,
+  footer div {
+    margin-top: 0px;
+  }
+  .tablet__footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 32px;
+  }
+  .footer__site-navigation {
+    text-align: left;
+  }
+  .footer__connection {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .footer__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .tablet__footer-wrapper {
+    width: 75%;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .footer__site-logo {
+    width: 25%;
+    margin-top: 30px;
+    padding-top: 0px;
+  }
+
+  .footer__connection {
+    text-align: left;
+  }
+}
