@@ -8,6 +8,11 @@
   .more-photo_icon {
     padding-left: 120px;
   }
+
+  .section_more-photo {
+    margin-bottom: 153px;
+  }
+
   h2 {
     margin-bottom: 16px;
     font-family: Cera Pro;
@@ -22,6 +27,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 32px;
   }
   .more-photo_list > .more-photo_item:not(:last-child) {
     margin-bottom: 16px;
@@ -44,6 +50,9 @@
     padding-left: 300px;
     margin-top: 32px;
   }
+  .section_more-photo {
+    margin-bottom: 129px;
+  }
   h2 {
     margin-bottom: 32px;
     font-family: Cera Pro;
@@ -61,6 +70,7 @@
     flex-wrap: wrap;
     margin-right: -18px;
     margin-bottom: -18px;
+    margin-bottom: 40px;
   }
   .more-photo_list > .more-photo_item {
     flex-basis: calc((100% - 108px) / 6);
@@ -78,10 +88,11 @@
   }
 
   .more-photo_icon {
-    padding-left: 400px;
-    margin-top: 56px;
+    padding-left: 480px;
   }
-
+  .section_more-photo {
+    margin-bottom: 201px;
+  }
   h2 {
     margin-bottom: 52px;
     font-family: Cera Pro;
@@ -99,6 +110,7 @@
     flex-wrap: wrap;
     margin-right: -20px;
     margin-bottom: -20px;
+    margin-bottom: 56px;
   }
   .more-photo_list > .more-photo_item {
     flex-basis: calc((100% - 120px) / 6);
