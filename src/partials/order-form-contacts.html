@@ -1,0 +1,132 @@
+<section class="order-page container "> 
+    <!--Форма  -->
+                <div class="order-form"> 
+                    <h2 class="order-form__title">ЗВ’ЯЖІТЬСЯ З НАМИ</h2>
+                    <form action="#" class="order-form__form" autocomplete="off">
+                        <label class="form__field">
+                            <input type="text" name="username" class="form__input" placeholder=" " required minlength="2">
+                            <span class="form__label">Ім’я</span>
+                        </label>
+                        <label class="form__field">
+                            <input type="email" name="email" class="form__input" placeholder=" " required>
+                            <span class="form__label">Email</span>
+                        </label>
+                        <select class="form__choice" name="product">
+                            <option class="form__choice-item" value="PS">Види пластика</option>
+                            <option class="form__choice-item" value="PS">Полiстирол</option>
+                            <option class="form__choice-item" value="PVH">Полiвiнiлхлорид</option>  
+                        </select>
+                        <select class="form__choice" name="compound" >
+                            <option class="form__choice-item" value="PS">Якiсть друку</option>
+                            <option class="form__choice-item" value="300">300 мікрон</option>
+                            <option class="form__choice-item" value="200">200 мікрон</option>
+                            <option class="form__choice-item" value="100">100 мікрон</option>
+                            <option class="form__choice-item" value="help">Трудношi у виборi-ми допоможемо</option>
+                        </select>
+                        <select class="form__choice" name="color" >
+                            <option value="PS">Колiр</option>
+                            <option class="form__choice-item" value="black">Червоний</option>
+                            <option class="form__choice-item" value="white">Бiлий</option>
+                        </select>
+                            <div class="order-form__massage" >  
+                                <span>Повiдомлення</span> 
+                            </div>  
+                            <div class="order-form__massage-clip"> 
+                                <textarea name="usermessage" class="form__message" placeholder="Залишіть своє повідомлення"></textarea>
+                            </div>
+                            <div class="order-form__text">
+                                <span class="order-form__file">*Прикріпіть зображення / креслення / STL / Obj / CAD-модель</span>  
+                            </div>  
+                            <svg class= "icon-paper-clip">
+                                <use href= "./images/icons/sprite.svg#icon-paper-clip"></use>
+                            </svg>
+                         
+                        <div class="order-form__btn"> 
+                            <button type="submit" class="order-form__button">Вiдправити</button>
+                        </div>                 
+                    </form> 
+                </div> 
+    <!-- Контакты -->
+                <div class="contact-gellary">  
+                    <div class="order-contacts-info"> 
+                        <ul class="order-contacts-info__list">
+                            <li class="order-contacts-info__list-iteam list"> 
+                                <h2 class="order-contacts-info__title">ТЕЛЕФОНИ</h2>
+                            </li>
+                            <li class="order-contacts-info__list-iteam list"> 
+                                  <a  class="link order-contacts-info__link" href="tel:+380957384551">+38 (095)-73-84-551</a> 
+                            </li>
+                            <li class="order-contacts-info__list-iteam list"> 
+                                 <a class="link order-contacts-info__link" href="tel:+380980025235">+38 (098)-00-25-235</a> 
+                            </li>
+                        </ul>
+                        
+                        <ul class="order-contacts-info__list">
+                            <li class="order-contacts-info__list-iteam list"><h2 class="order-contacts-info__title">Email</h2> </li>
+                            <li class="order-contacts-info__list-iteam list"> 
+                                 <a class="link order-contacts-info__link" href="mailto:3dfreedom.info@gmail.com">3dfreedom.info@gmail.com</a>
+                            </li> 
+                        </ul>
+                       
+                        <ul class="order-contacts-info__list">
+                            <li class="order-contacts-info__list-iteam list"> <h2 class="order-contacts-info__title ">Робочий час</h2></li>
+                            <li class="order-contacts-info__list-iteam list"> 
+                                <p class="order-contacts-info__link order-contacts-info__link-date" > Пн-пт: <span class="order-contacts-info__date">з 8:00 до 19:00</span> </p> 
+                            </li>
+                            <li class="order-contacts-info__list-iteam  list">
+                               <p class="order-contacts-info__link order-contacts-info__link-date" >Сб, Нд: <span class="order-contacts-info__date">з 10:00 до 17:00</span></p> 
+                            </li>
+                        </ul>
+                    </div>  
+                
+    <!-- Галлерея -->
+                       <div class="order-gallary-section" >
+                           
+                         <ul class="order-gallary"> 
+                            <li class="order-gallary__iteam list"> 
+                                <picture >
+                                    <source media="(min-width: 1200px)" srcset="./images/order-form-contacts/desktop/order-form-1.jpg 1x, ./images/order-form-contacts/desktop/order-form-1@2x.jpg 2x" >
+                                    <img  src="./images/order-form-contacts/desktop/order-form-1.jpg" alt="квiтка в горщику" class="order-gallary__img-1" width= "138" height="138"> 
+                                </picture>
+                                
+                            </li>
+                            <li class="order-gallary__iteam list">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/order-form-contacts/desktop/order-form-2.jpg 1x, ./images/order-form-contacts/desktop/order-form-2@2x.jpg 2x">
+                                    <img  src="./images/order-form-contacts/desktop/order-form-2.jpg" alt="квiтка в горщику" class="order-gallary__img-2" width= "138" height="138">
+                                </picture>
+                                
+                            </li>
+                            <li class="order-gallary__iteam list">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/order-form-contacts/desktop/order-form-3.jpg 1x, ./images/order-form-contacts/desktop/order-form-3@2x.jpg 2x">
+                                    <img  src="./images/order-form-contacts/desktop/order-form-3.jpg" alt="квiтка в горщику" class="order-gallary__img-3" width= "138" height="138">
+                                </picture>
+                                
+                            </li>
+                            <li class="order-gallary__iteam list">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/order-form-contacts/desktop/order-form-4.jpg 1x, ./images/order-form-contacts/desktop/order-form-4@2x.jpg 2x">
+                                    <img  src="./images/order-form-contacts/desktop/order-form-4.jpg" alt="квiтка в горщику" class="order-gallary__img-4" width= "138" height="138">
+                                </picture>
+                               
+                            </li>
+                            <li class="order-gallary__iteam list">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/order-form-contacts/desktop/order-form-5.jpg 1x, ./images/order-form-contacts/desktop/order-form-5@2x.jpg 2x">
+                                    <img  src="./images/order-form-contacts/desktop/order-form-5.jpg" alt="квiтка в горщику" class="order-gallary__img-5" width= "138" height="138">
+                                </picture>
+                                
+                            </li> 
+                            <li class="order-gallary__iteam list">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/order-form-contacts/desktop/order-form-6.jpg 1x, ./images/order-form-contacts/desktop/order-form-6@2x.jpg 2x">
+                                    <img  src="./images/order-form-contacts/desktop/order-form-6.jpg" alt="квiтка в горщику" class="order-gallary__img-6" width= "138" height="138">
+                                </picture>
+                 
+                            </li> 
+                        </ul>     
+                    </div>   
+                </div>          
+    </section>
+
