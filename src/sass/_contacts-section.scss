@@ -104,8 +104,13 @@
   }
 }
 
-.icon-paper-clip {
+.icon-paper-clip-contacts {
   fill: #cdcdcd;
+  @media screen and (min-width: 1444px) {
+    position: absolute;
+    top: -21px;
+    right: -2px;
+  }
 }
 
 .contacts-form__title {
