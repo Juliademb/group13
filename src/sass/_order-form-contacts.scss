@@ -27,10 +27,8 @@
     font-family: var(--main-font);
     font-style: 700;
     font-size: 18px;
-    line-height: 1.257px;
     text-align: left;
     margin-bottom: 28px;
-    padding-top: 10px;
   }
   @media screen and (min-width: 768px) and (max-width: 1443px) {
     .order-form__title {
@@ -120,7 +118,12 @@
   }
   
   // textarea
-  
+  .order-form__massage{
+    display: block;
+    font-size: 16px;
+    line-height: 1.25px;
+    
+  }
   .form__message {
     position: relative;
     width: 100%;
@@ -135,12 +138,12 @@
     outline: none;
   }
   .order-form__massage-clip{
-      margin-top:10 px;
+      margin-top: 20px;
   }
-  .order-form__tekst{
+  .order-form__text{
       max-width: 208px;  
-      @media screen and (min-width: 1444px) {
-        max-width: 365px;  
+      @media screen and (min-width: 768px) {
+        max-width: 390px;  
       }
       @media screen and (min-width: 1444px) {
          max-width: 515px; 
@@ -189,7 +192,7 @@
   }
   .order-form__button {
     min-width: 280px;
-    padding: 16px 32px;
+    padding: 16px 83px;
     margin-top: 24px;
     border-radius: 32px;
     background-color: var(--bg-footer-color);
@@ -197,20 +200,24 @@
     box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1),
       5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
     color: var(--blue-accent-color);
-    font-style: 700;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1.5px;
+   
     text-align: center;
     cursor: pointer;
   
     @media screen and (min-width: 768px) {
       margin-top: 44px;
+      line-height: 1.25px;
       min-width: 177px;
+      padding: 16px 32px;
+      
     }
     @media screen and (min-width: 768px) {
       margin-top: 24px;
       font-size: 18px;
       line-height: 1.257;
+
     }
   }
   .order-form__button:hover,
@@ -280,23 +287,17 @@
     }
   }
   .order-contacts-info__link-date {
-    @media screen and (min-width: 320px) {
       display: block;
-    }
-    text-align: left;
-    @media screen and (min-width: 768px) {
-      text-align: right;
-    }
+     @media screen and (min-width: 768px) {
+       text-align: right;
+     }
   }
   .order-contacts-info__date {
-    @media screen and (min-width: 320px) and (max-width: 767px) {
-      display: block;
-      text-align: left;
+    display: block;
+    @media screen and (min-width: 1444px) {
+        display: inline-block;
+      }
     }
-    @media screen and (min-width: 768px) and (max-width: 1443px) {
-      text-align: right;
-    }
-  }
   
   // /* Контакты */
   
