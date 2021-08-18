@@ -1,9 +1,9 @@
 .conteiner {
   width: 100%;
-  padding-right: 20px;
+  margin: 0 auto;
   padding-left: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-right: 20px;
+
   @media screen and(min-width: 768px) {
     padding-left: 60px;
     padding-right: 60px;
@@ -14,13 +14,14 @@
   }
 }
 
-.hero__scan {
+.hero__scan-conteiner {
   display: block;
   background: url(../images/scanning/hero-scanning-desk.jpg);
   background-repeat: no-repeat;
   background-position: 20px 515px;
   background-size: 280px 199px;
   padding-bottom: 200px;
+  padding-left: 30px;
 
   @media screen and (min-width: 768px) {
     float: left;
@@ -28,11 +29,13 @@
     background-position: 520px 100px;
     background-size: 241px 172px;
     padding-bottom: 0;
+    padding-left: 60px;
   }
   @media screen and (min-width: 1444px) {
     background-position: 720px 70px;
     background-size: 515px 368px;
     padding-bottom: 52px;
+    padding-left: 189px;
   }
 }
 .text {
@@ -309,15 +312,17 @@
   }
 }
 
-.text-button {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-style: 16px;
-  line-height: 1.5;
-  text-align: center;
+.scan-button {
+  margin-left: 30px;
 
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 16px 32px;
-  color: var(--blue-accent-color);
+  @media screen and(min-width: 768px) {
+    margin-left: 245px;
+    margin-bottom: 76px;
+  }
+
+  @media screen and(min-width: 1444px) {
+    margin-left: 581px;
+
+    margin-bottom: 100px;
+  }
 }
