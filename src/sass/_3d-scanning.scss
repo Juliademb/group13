@@ -20,21 +20,22 @@
   background-repeat: no-repeat;
   background-position: 20px 515px;
   background-size: 280px 199px;
-  padding-bottom: 200px;
+  padding-bottom: 76px;
   padding-left: 30px;
 
+  background-color: #fff;
   @media screen and (min-width: 768px) {
     float: left;
     margin: 0 1em 1em 0;
     background-position: 520px 100px;
     background-size: 241px 172px;
-    padding-bottom: 0;
+    padding-bottom: 76px;
     padding-left: 60px;
   }
   @media screen and (min-width: 1444px) {
     background-position: 720px 70px;
     background-size: 515px 368px;
-    padding-bottom: 52px;
+    padding-bottom: 100px;
     padding-left: 189px;
   }
 }
@@ -187,10 +188,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 21px;
+  padding-bottom: 55px;
+
+  @media screen and(min-width:768px) {
+    padding-bottom: 52px;
+  }
+  @media screen and(min-width:1444px) {
+    padding-bottom: 100px;
+  }
 }
 .process__scan {
-  margin-top: -180px;
   max-width: 320px;
   margin-bottom: 55px;
   @media screen and(min-width:768px) {
@@ -206,7 +213,7 @@
 .process {
   width: 133px;
   height: 183px;
-  margin-bottom: 15px;
+  padding-bottom: 16.5px;
 
   background: #ffffff;
   opacity: 0.8;
@@ -313,8 +320,6 @@
 }
 
 .scan-button {
-  margin-left: 30px;
-
   @media screen and(min-width: 768px) {
     margin-left: 245px;
     margin-bottom: 76px;
