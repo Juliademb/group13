@@ -266,6 +266,12 @@ header {
   }
 }
 
+.tablet-contacts:not(:last-child) {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+}
+
 .tablet-contacts__number {
   font-family: Cera Pro;
   font-style: normal;
