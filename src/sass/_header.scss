@@ -27,11 +27,12 @@ header {
   position: absolute;
   width: 74px;
   height: 74px;
-  top: 8px;
+  top: -25px;
+  left: -283px;
   box-shadow: 20px 20px 80px var(--decor-elements-shadow);
   border-radius: 0 50% 50% 0;
   @media screen and (min-width: 768px) {
-    left: 245px;
+    left: -245px;
   }
 }
 
