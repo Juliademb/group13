@@ -1,9 +1,9 @@
 .conteiner {
   width: 100%;
-  padding-right: 20px;
+  margin: 0 auto;
   padding-left: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-right: 20px;
+
   @media screen and(min-width: 768px) {
     padding-left: 60px;
     padding-right: 60px;
@@ -14,25 +14,29 @@
   }
 }
 
-.hero__scan {
+.hero__scan-conteiner {
   display: block;
   background: url(../images/scanning/hero-scanning-desk.jpg);
   background-repeat: no-repeat;
   background-position: 20px 515px;
   background-size: 280px 199px;
-  padding-bottom: 200px;
+  padding-bottom: 76px;
+  padding-left: 30px;
 
+  background-color: #fff;
   @media screen and (min-width: 768px) {
     float: left;
     margin: 0 1em 1em 0;
     background-position: 520px 100px;
     background-size: 241px 172px;
-    padding-bottom: 0;
+    padding-bottom: 76px;
+    padding-left: 60px;
   }
   @media screen and (min-width: 1444px) {
     background-position: 720px 70px;
     background-size: 515px 368px;
-    padding-bottom: 52px;
+    padding-bottom: 100px;
+    padding-left: 189px;
   }
 }
 .text {
@@ -184,10 +188,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 21px;
+  padding-bottom: 55px;
+
+  @media screen and(min-width:768px) {
+    padding-bottom: 52px;
+  }
+  @media screen and(min-width:1444px) {
+    padding-bottom: 100px;
+  }
 }
 .process__scan {
-  margin-top: -180px;
   max-width: 320px;
   margin-bottom: 55px;
   @media screen and(min-width:768px) {
@@ -203,7 +213,7 @@
 .process {
   width: 133px;
   height: 183px;
-  margin-bottom: 15px;
+  padding-bottom: 16.5px;
 
   background: #ffffff;
   opacity: 0.8;
@@ -285,17 +295,20 @@
 }
 
 .button-scan {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 280px;
-  height: 56px;
-  margin-bottom: 76px;
-
-  background: var(--bg-footer-color);
-  border-radius: 30.5px;
+  min-width: 280px;
+  padding: 16px 32px;
+  margin-top: 24px;
+  border-radius: 32px;
+  background-color: var(--bg-footer-color);
+  border: 1px solid var(--bg-footer-color);
   box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1),
-    5px 5px 10px rgba (72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+    5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+  color: var(--blue-accent-color);
+  font-style: 700;
+  font-size: 16px;
+  line-height: 1.5px;
+  text-align: center;
+  cursor: pointer;
 
   @media screen and(min-width: 768px) {
     width: 277px;
@@ -305,15 +318,16 @@
     margin-bottom: 100px;
   }
 }
-.text-button {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-style: 16px;
-  line-height: 1.5;
-  text-align: center;
 
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 16px 32px;
-  color: var(--blue-accent-color);
+.scan-button {
+  @media screen and(min-width: 768px) {
+    margin-left: 245px;
+    margin-bottom: 76px;
+  }
+
+  @media screen and(min-width: 1444px) {
+    margin-left: 581px;
+
+    margin-bottom: 100px;
+  }
 }
