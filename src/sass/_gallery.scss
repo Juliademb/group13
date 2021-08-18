@@ -2,7 +2,6 @@
   width: 320px;
   margin: 0 auto;
   padding: 0 20px;
-  padding-bottom: 52px;
 
   &__title {
     margin-bottom: 16.16px;
@@ -37,6 +36,7 @@
 }
 .gallery-container {
   position: relative;
+  padding-bottom: 52px;
 }
 .design-element-1 {
   position: absolute;
