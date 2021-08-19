@@ -188,6 +188,7 @@
   }
 }
 .order-form__button {
+  border: transparent;
   min-width: 280px;
   padding: 16px 83px;
   margin-top: 24px;
@@ -199,6 +200,9 @@
   color: var(--blue-accent-color);
   font-weight: 700;
   font-size: 16px;
+  text-transform: uppercase;
+  font-family: Cera Pro;
+  letter-spacing: 0.1em;
 
   text-align: center;
   cursor: pointer;
