@@ -76,6 +76,10 @@
   text-align: center;
   color: var(--blue-accent-color);
   margin-top: 17px;
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+    line-height: 1.278;
+  }
 }
 .examples__text {
   align-items: center;
@@ -123,6 +127,10 @@
   line-height: 1.25;
   color: var(--black-text-color);
   margin-top: 16px;
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+    line-height: 1.278;
+  }
   @media screen and (min-width: 768px) {
     &:first-child {
       margin-top: 0;
