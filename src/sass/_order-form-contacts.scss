@@ -248,9 +248,11 @@
   font-style: 700;
   font-size: 18px;
   line-height: 1.257;
+  margin-bottom: 0;
   @media screen and (min-width: 768px) {
     font-size: 24px;
     line-height: 1.257;
+    margin-bottom: 0;
   }
   @media screen and (min-width: 1444px) {
     font-size: 36px;
