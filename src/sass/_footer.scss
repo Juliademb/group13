@@ -15,8 +15,8 @@ footer li {
   transition-duration: 0ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-footer li:hover {
-  box-shadow: 3px 3px 3px #00b7ff;
+footer li:hover a{
+  color: var(--icon-blue-color);
 }
 
 footer {
@@ -37,12 +37,16 @@ footer {
   footer {
     text-align: center;
   }
-  .footer__site-logo {
-    padding-top: 32px;
-  }
   footer ul,
   footer div {
     margin-top: 24px;
+  }
+  .footer__site-logo {
+    padding-top: 32px;
+    margin-top: 0px;
+  }
+  .footer__site-phone {
+    padding-bottom: 32px;
   }
 }
 
