@@ -18,14 +18,14 @@
   display: block;
   background: url(../images/scanning/hero-scanning-desk.jpg);
   background-repeat: no-repeat;
-  background-position: 20px 515px;
+  background-position: 20px 575px;
   background-size: 280px 199px;
   padding-bottom: 76px;
   padding-left: 30px;
   background-color: var(--white-color);
 
   @media screen and (min-width: 768px) {
-    background-position: 480px 100px;
+    background-position: 430px 100px;
     background-size: 241px 172px;
     padding-bottom: 76px;
   }
@@ -58,7 +58,7 @@
   font-style: normal;
   font-weight: 300;
   padding-bottom: 16px;
-  line-height: 1.25px;
+  line-height: 1.25;
   color: var(--black-text-color);
 }
 
@@ -88,7 +88,7 @@
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: 1.25px;
+  line-height: 1.25;
 
   color: var(--black-text-color);
 
@@ -135,7 +135,7 @@
   font-style: normal;
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.25px;
+  line-height: 1.25;
 
   text-align: center;
   padding-top: 20px;
@@ -156,7 +156,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 1.27px;
+  line-height: 1.27;
   text-transform: uppercase;
   color: var(--blue-accent-color);
 
@@ -306,7 +306,7 @@
 
 .button-scan {
   min-width: 280px;
-  padding: 16px 32px;
+  padding: 20px 32px;
   margin-top: 24px;
   border-radius: 32px;
   background-color: var(--bg-footer-color);
@@ -315,8 +315,9 @@
     5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
   color: var(--blue-accent-color);
   font-style: 700;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   text-align: center;
   cursor: pointer;
 
