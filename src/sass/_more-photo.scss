@@ -8,27 +8,21 @@
   .more-photo_icon {
     padding-left: 120px;
   }
-  .section_more-photo {
-    margin-bottom: 90px;
-  }
-  /*h2 {
+  .more-photo_title {
     margin-bottom: 16px;
     font-family: Cera Pro;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.25;
-    color: #487996;
-  }*/
 
-  h2 {
-    margin-bottom: 16px;
+    color: #487996;
   }
+
   .more-photo_list {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-bottom: 32px;
   }
   .more-photo_list > .more-photo_item:not(:last-child) {
     margin-bottom: 16px;
@@ -51,8 +45,9 @@
     padding-left: 300px;
     margin-top: 32px;
   }
-  .section_more-photo {
-    margin-bottom: 80px;
+  .more-photo_title {
+    margin-bottom: 32px;
+    font-size: 36px;
   }
   .more-photo_list {
     list-style: none;
@@ -62,24 +57,11 @@
     flex-wrap: wrap;
     margin-right: -18px;
     margin-bottom: -18px;
-    margin-bottom: 40px;
   }
   .more-photo_list > .more-photo_item {
     flex-basis: calc((100% - 108px) / 6);
     margin-right: 18px;
     margin-bottom: 18px;
-  }
-  /*h2 {
-    margin-bottom: 32px;
-    font-family: Cera Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.25;
-    color: #487996;
-  }*/
-  h2 {
-    margin-bottom: 32px;
   }
 }
 
@@ -90,11 +72,15 @@
     padding-right: 189px;
     margin: 0 auto;
   }
+
   .more-photo_icon {
-    padding-left: 480px;
+    padding-left: 400px;
+    margin-top: 56px;
   }
-  .section_more-photo {
-    margin-bottom: 100px;
+
+  .more-photo_title {
+    margin-bottom: 52px;
+    font-size: 48px;
   }
   .more-photo_list {
     list-style: none;
@@ -104,24 +90,11 @@
     flex-wrap: wrap;
     margin-right: -20px;
     margin-bottom: -20px;
-    margin-bottom: 56px;
   }
   .more-photo_list > .more-photo_item {
     flex-basis: calc((100% - 120px) / 6);
     margin-right: 20px;
     margin-bottom: 20px;
-  }
-  /*h2 {
-    margin-bottom: 52px;
-    font-family: Cera Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 1.25;
-    color: #487996;
-  }*/
-  h2 {
-    margin-bottom: 52px;
   }
 }
 .more-photo_icon {
