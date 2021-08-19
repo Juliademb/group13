@@ -33,12 +33,30 @@
     padding-left: 60px;
   }
   @media screen and (min-width: 1444px) {
-    background-position: 720px 70px;
+    background-position: 720px 110px;
     background-size: 515px 368px;
     padding-bottom: 100px;
     padding-left: 189px;
   }
 }
+.hero__scan-conteiner .title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.25;
+
+  padding-bottom: 16px;
+  color: var(--blue-accent-color);
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    padding-bottom: 24px;
+  }
+}
+
 .text {
   font-family: var(--main-font);
   font-style: normal;
