@@ -539,8 +539,10 @@ header {
 .pc-header__lang__link:hover,
 .pc-header__lang__link:focus,
 .pc-header__phones__link:hover,
-.pc-header__phones__link:focus {
+.pc-header__phones__link:focus 
+{
   color: var(--icon-blue-color);
+  transition: color var(--cubik) 250ms;
 }
 
 .pc-header__phones__link:hover::before {
