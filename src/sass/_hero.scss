@@ -1,7 +1,6 @@
 .main-hero {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 52px;
 }
 .main-hero__title {
     margin-bottom: 32px;
@@ -65,7 +64,7 @@
         url(../images/main-hero/hero-bottom-right-back-tabl.jpg),
         url(../images/main-hero/hero-bottom-left-back-tabl.jpg);
         background-repeat: no-repeat;
-        background-position: left 0 top -50px, right 0 top -50px, right 0 bottom -20px, left 0 bottom -75px;
+        background-position: left 0 top -50px, right 0 top -50px, right 0 bottom -70px, left 0 bottom -100px;
     }
     
     .main-hero__posit-wrapper {
@@ -76,6 +75,7 @@
     .main-hero__title {
         margin-bottom: 64px;
         font-size: 24px;
+        min-width: 420px;
     }
     .main-hero__image-list {
         margin-bottom: 64px;
@@ -95,6 +95,7 @@
         max-width: 74px;
         display: block;
         padding: 30px 32px;
+        cursor: pointer;
     }
    
 }
@@ -110,7 +111,7 @@
         url(../images/main-hero/hero-bottom-right-back-desk.jpg),
         url(../images/main-hero/hero-bottom-left-back-desk.jpg);
         background-repeat: no-repeat;
-        background-position: left 76px top -5px, right 0 top -5px, right 0 bottom 20px, left 0 bottom -100px;
+        background-position: left 76px top -50px, right 0 top -50px, right 0 bottom 20px, left -20px bottom -100px;
     }
     
     .main-hero__title {
@@ -146,7 +147,7 @@
         max-width: 144px;
         display: block;
         padding: 58px 63px;
-    
+        cursor: pointer;
     }
     
 }
