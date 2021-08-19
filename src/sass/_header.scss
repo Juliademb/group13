@@ -112,6 +112,8 @@ header {
     //display: block;
     opacity: 1;
     transform: scaleY(1);
+    transition: opacity 500ms;
+    box-shadow: 20px 20px 200px var(--decor-elements-shadow);
   }
 }
 
