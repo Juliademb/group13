@@ -14,14 +14,30 @@
   }
 }
 
-.hero__scan-conteiner {
+.fix-container {
   display: block;
+  width: 280px;
+  height: 200px;
   background: url(../images/scanning/hero-scanning-desk.jpg);
   background-repeat: no-repeat;
-  background-position: 20px 515px;
-  background-size: 280px 199px;
-  padding-bottom: 76px;
-  padding-left: 30px;
+  background-size: cover;
+  position: absolute;
+  bottom: -287px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.hero__scan-conteiner {
+  @media screen and (min-width: 768px) {
+    display: block;
+    background: url(../images/scanning/hero-scanning-desk.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px 515px;
+    background-size: 280px 199px;
+    padding-bottom: 76px;
+    padding-left: 30px;
+  }
 
   background-color: #fff;
   @media screen and (min-width: 768px) {
