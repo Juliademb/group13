@@ -37,6 +37,7 @@
 .gallery-container {
   position: relative;
   padding-bottom: 52px;
+  overflow: hidden;
 }
 .design-element-1 {
   position: absolute;
@@ -87,19 +88,23 @@
 
 @media screen and (min-width: 768px) {
   .design-element-1 {
+    position: absolute;
     left: 32.1px;
     top: 0px;
   }
 
   .design-element-2 {
+    position: absolute;
     left: 32.1px;
     top: 215px;
   }
   .design-element-3 {
+    position: absolute;
     right: 32.1px;
     top: 75.19px;
   }
   .design-element-4 {
+    position: absolute;
     right: 0px;
     top: 148.74px;
   }
@@ -136,6 +141,7 @@
 
 @media screen and (min-width: 1444px) {
   .design-element-1 {
+    position: absolute;
     width: 144px;
     height: 144px;
     left: 32px;
@@ -143,18 +149,21 @@
   }
 
   .design-element-2 {
+    position: absolute;
     width: 144px;
     height: 144px;
     left: 32.1px;
     top: 416px;
   }
   .design-element-3 {
+    position: absolute;
     width: 144px;
     height: 144px;
     right: 32px;
     top: 147px;
   }
   .design-element-4 {
+    position: absolute;
     width: 144px;
     height: 144px;
     right: -50px;
